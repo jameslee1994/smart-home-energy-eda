@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data — usually fine to commit but exclude large raw files if needed
+# data/raw/*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific
+*.log
+*.tmp
+.~lock.*#
+
+# Pandoc conversion cruft
+html2pdf*.html
+html2pdf*.pdf
+
+# Helper scripts not part of the deliverable
+push_to_github.sh
